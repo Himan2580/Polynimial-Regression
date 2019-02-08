@@ -1,5 +1,6 @@
 # Polynimial-Regression
 this is the Code for polynomial Regression in Machine learning on simple Data for only understanding.
+dataset=pd.read_csv("C:\\Users\\acer\\AppData\\Local\\Temp\\Rar$DIa3160.45833\\Position_Salaries.csv")
 dataset
 X=dataset.iloc[:, 1:2].values
 y=dataset.iloc[:,2].values
